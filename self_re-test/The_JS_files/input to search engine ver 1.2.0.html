@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <input type="text" id="searchInput" placeholder="Enter your question">
+    <button onclick="search()">Search</button>
+    <div id="searchResults"></div>
+
+    <script>
+        function search() {
+            const query = document.getElementById("searchInput").value;
+            if (!query) {
+                alert("Please enter a search query.");
+                return;
+            }
+
+            // Redirect the user to the search engine with the query in a new tab
+            window.open(`https://www.bing.com/search?q=${encodeURIComponent(query)}`, "_blank");
+        }
+    </script>
+
+    <script>
+        // Function to display search results on the main page
+        function displayResults(results) {
+            const resultsDiv = document.getElementById("searchResults");
+            resultsDiv.innerHTML = ""; // Clear previous results
+
+            // Display the top 5 search results
+            for (let i = 0; i < 5 && i < results.length; i++) {
+                const result = results[i];
+                const resultLink = document.createElement("a");
+                resultLink.href = result.url;
+                resultLink.target = "_blank"; // Open link in a new tab
+                resultLink.textContent = result.title;
+                resultsDiv.appendChild(resultLink);
+                resultsDiv.appendChild(document.createElement("br"));
+            }
+        }
+
+        // Example search results (replace with actual results from your search engine)
+        const exampleResults = [
+            { title: "Result 1", url: "https://example.com/result1" },
+            { title: "Result 2", url: "https://example.com/result2" },
+            // Add more results here...
+        ];
+
+        // Call the displayResults function with your actual search results
+        displayResults(exampleResults);
+    </script>
+</body>
+</html>

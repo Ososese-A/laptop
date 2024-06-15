@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_52b97d4a16c995aa266845372f4c7f2b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_52b97d4a16c995aa266845372f4c7f2b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_52b97d4a16c995aa266845372f4c7f2b = L.map(
+                "map_52b97d4a16c995aa266845372f4c7f2b",
+                {
+                    center: [9.6000359, 7.9999721],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_61c81f8d3fc2322c7e111e90c1a63cea = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_61c81f8d3fc2322c7e111e90c1a63cea.addTo(map_52b97d4a16c995aa266845372f4c7f2b);
+        
+    
+            var marker_e904752164e65d347b26501cbda9e3c2 = L.marker(
+                [9.6000359, 7.9999721],
+                {}
+            ).addTo(map_52b97d4a16c995aa266845372f4c7f2b);
+        
+    
+        var popup_44d39bce0d683f8cb68552d7a199ab14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_883f4bad478233adbc56b6032dfd8462 = $(`<div id="html_883f4bad478233adbc56b6032dfd8462" style="width: 100.0%; height: 100.0%;">Nigeria</div>`)[0];
+                popup_44d39bce0d683f8cb68552d7a199ab14.setContent(html_883f4bad478233adbc56b6032dfd8462);
+            
+        
+
+        marker_e904752164e65d347b26501cbda9e3c2.bindPopup(popup_44d39bce0d683f8cb68552d7a199ab14)
+        ;
+
+        
+    
+</script>
+</html>

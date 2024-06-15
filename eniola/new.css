@@ -1,0 +1,23 @@
+.test {
+    border: 1px solid transparent;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('we_care.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.head_line {
+    position: absolute;
+    bottom: 0;
+    left: 230px;
+    color: #fafafa;
+    font-size: 64px;
+}

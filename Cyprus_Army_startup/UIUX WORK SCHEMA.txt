@@ -1,0 +1,109 @@
+how to change from one class to another with javascript ✅
+how to change from one attribute to another ✅
+how to remove classes and attributes ✅
+password field checking onkeyup with color changing with alert and dialogue ✅
+what is vanilla javascript ✅
+footer copyright year with js 
+js special functions like fetch and geolocation and local storage(we are learning this cause we no nothing about databases so when we learn about databases we will be using that instead)
+CRUD explained
+todo list sample with js where the btns delete, add and modify the todos all in js
+
+
+the programatic redirect in js after a user uploads sth with a form 
+DENTE
+
+
+Electron JS in 100 Seconds
+Build a Desktop App with Electron... But Should You? [https://www.youtube.com/watch?v=3yqDxhR2XxE]
+
+
+
+
+
+
+
+Progressive Web Apps in 100 Seconds // Build a PWA from Scratch [https://www.youtube.com/watch?v=sFsRylCQblw&t=11s]
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OTHER
+40 From Figma to a 3D Web Page with Dora Plugin - No code Tutorial [https://www.youtube.com/watch?v=slentvTk3gY]
+24 ADVANCED Interactive Components in Figma [https://www.youtube.com/watch?v=ChAyF6JeANw] ❌❌❌
+
+
+
+
+1.  Imoisili Efe 34,000 (joggers and jacket)
+2.  Ikheloa Joel 25,000 (jacket)
+3.  Ikheloa Benedict 25,000 (jacket)
+4.  Ottah Eghosa 34,000 (joggers and jacket)
+5.  Eze Chibuzor 34,000 (joggers and jacket)
+6.  Aghomo Newton 34,000 (joggers and jacket)
+7.  Osaigbovo Enorenuhi 34,000 (joggers and jacket)
+8.  Ogechikaru Tennyson 34,000 (joggers and jacket)
+9.  Okwara Udensi 34,000 (joggers and jacket)
+10. Dania Joseph Oshiomole 34,000 (joggers and jacket)
+11. Okwe Olisemeka Philemon 34,000 (joggers and jacket)
+12. Nnemeka Uba 34,000 (joggers and jacket)
+13. Komeno Itaiko Ikpokpo 34,000 (joggers and jacket)
+14. Francis Chejina 34,000 (joggers and jacket)
+15. Amadi David 34,000 (joggers and jacket)
+16. Omoh Joseph 34,000 (joggers and jacket)
+17. Udeh John 25,000 (jacket)
+18. Ibegbunam Nelson 34,000 (joggers and jacket)
+19. Okhimamhe Nathaniel 34,000 (joggers and jacket)
+20. Igo John 34,000 (joggers and jacket)
+21. Aghaba Ogheneyome 34,000 (joggers and jacket)
+22. Nani Leslie 34,000 (joggers and jacket)
+23. Ofa Ochuko 34,000 (joggers and jacket)
+24. Ogbe David 34,000 (joggers and jacket)
+25. Ugbaja Otito 34,000 (joggers and jacket)
+26. Nwokedi Gerald 34,000 (joggers and jacket)
+27. Nwosu Kenechukwu 34,000 (joggers and jacket)
+28. Azagba Goddey 34,000 (joggers and jacket)
+29. Nwosu Ugonnia 34,000 (joggers and jacket)
+30. Ogbon Osaro 34,000 (joggers and jacket)
+31. Maduike Tochukwu 34,000 (joggers and jacket)
+32. Tuoyo Misan Joel 25,000 (jacket)
+33. Edewede Ehituemen 34,000 (joggers and jacket)
+34. Great Ewaleifoh 34,000 (joggers and jacket)
+35. zebedee Chidera 34,000 (joggers and jacket)
+36. Osamudiamen Evans 34,000 (joggers and jacket)
+37. Emuan Elliot 34,000 (joggers and jacket)
+38. Oigbochie Exalted 34,000 (joggers and jacket)
+39. Ikhapo Gabriel 34,000 (joggers and jacket)
+40. Umuni Hari 34,000 (joggers and jacket)
+41. Ighodaro Dominique 34,000 (joggers and jacket)
+42. Okwubor Joseph 34,000 (joggers and jacket)
+43. Efosa Okpasigbe 34,000 (joggers and jacket)
+44. Akoreh Marvel 25,000 (jacket)
+45. Okhiria Daniel 25,000 (jacket)

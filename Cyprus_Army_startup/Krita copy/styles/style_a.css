@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.top-header {
+    background-color: #333333;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px #fafafa solid;
+}
+
+.bottom-header {
+    width: 100vw;
+    height: 520px;
+    border: 1px solid transparent;
+    border-bottom: 3px solid #32a6ff;
+    background-image: url("../assets/asset\ 14.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-image: linear-gradient(#000000ca , #00000000);
+}
+
+.navul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.navli {
+    padding-right: 24px;
+}
+
+.con {
+    position: relative;
+    top: 40px;
+    left: 96px;
+}
+
+.box {
+    color: #fafafa;
+    border: 1px solid transparent;
+    background-color: #171216;
+    width: fit-content;
+    padding: 24px 128px 24px 24px;
+    line-height: 30.6px;
+    opacity: 0.9;
+    box-shadow: rgb(60, 60, 60) 0px 0px 14px 0px;
+}
+
+.title {
+    font-size: 28px;
+}
+
+.ultrbox {
+    text-decoration: underline;
+}
+
+.win {
+    border: 1px solid transparent;
+    padding: 16px 32px;
+    background-color: #32a6ff;
+    box-shadow: rgb(87, 107, 132) 1.8px 1.8px 5.4px 0px;
+    border-radius: 3.6px;
+}
+
+.win:hover {
+    background-color: #51b2fb;
+    text-decoration: none;
+}
+
+.row-one {
+    display: flex;
+}
+
+.title-row {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.r-btn {
+    border: 1px solid #057cf8;
+    color: #057cf8;
+    padding: 8px 24px;
+    box-shadow: rgb(186, 193, 230) 3px 3px 2px 0px;
+    border-radius: 3.6px;
+    margin-right: 8px;
+}
+
+.r-btn:hover {
+    background-color: #e9f4ff;
+    text-decoration: none;
+}
+
+.one-one {
+    line-height: 30.6px;
+    border: 1px solid red;
+    height: 340px;
+    width: 540px;
+    font-size: 18px;
+    margin: 0px 16px 24px 16px;
+}
+.one-two {
+    line-height: 30.6px;
+    border: 1px solid red;
+    height: 400px;
+    width: 520px;
+    font-size: 18px;
+    margin: 0px 16px 24px 16px;
+}
+.one-three {
+    line-height: 30.6px;
+    border: 1px solid red;
+    height: 400px;
+    width: 520px;
+    font-size: 18px;
+    margin-left: 32px;
+    margin-bottom: 40px;
+}
+.row-two {
+    display: flex;
+}

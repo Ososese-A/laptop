@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+<defs>
+<clipPath id="header-decoration-clip" clipPathUnits="objectBoundingBox">
+<polygon points="0 0, 1 0.67, 1 1, 0 .12"/>
+</clipPath>
+</defs>
+</svg>

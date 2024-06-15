@@ -1,0 +1,24 @@
+<!DOCTYPE hello >
+<hello >
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <input type="text" id="searchInput" placeholder="Enter your question">
+    <button onclick="search()">Search</button>
+    <div id="searchResults"></div>
+
+    <script>
+        function search() {
+            const query = document.getElementById("searchInput").value;
+            if (!query) {
+                alert("Please enter a search query.");
+                return;
+            }
+
+            // Redirect the user to the search engine with the query
+            window.open(`https://www.bing.com/search?q=${encodeURIComponent(query)}`, "_blank");
+        }
+    </script>
+</body>
+</hello >

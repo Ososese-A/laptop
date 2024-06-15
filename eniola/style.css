@@ -1,0 +1,21 @@
+body {
+    background-color: brown;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.example {
+    color: greenyellow;
+}
+
+#sample {
+    color: aquamarine;
+}
+
+.big {
+    font-size: 64px;
+}

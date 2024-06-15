@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>MONDAY</thead>
+        <tr>
+            <th>No</th>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Price (a) NGN [&#8358;]</th>
+            <th>Price (a) USD [$]</th>
+            <th>Updated</th>
+            <th>Price (b) NGN [&#8358;]</th>
+            <th>Price (b) USD [$]</th>
+            <th>Updated</th>
+            <th>Average price NGN [&#8358;]</th>
+            <th>Average price USD [$]</th>
+            <th>Updated</th>
+            <th>Refresh (a)</th>
+            <th>Refresh (b)</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>MSFT</td>
+            <td>Microsoft</td>
+            <td id="msft_mon_ngn_a"> 100,000</td>
+            <td id="msft_mon_usd_a">300</td>
+            <td id="msft_mon_time_a">timed</td>
+            <td id="msft_mon_ngn_b">200,000</td>
+            <td id="msft_mon_usd_b">377.45</td>
+            <td id="msft_mon_time_b">timed</td>
+            <td id="msft_mon_ngn_avg">Avg NGN</td>
+            <td id="msft_mon_usd_avg">Avg USD</td>
+            <td id="msft_mon_time_avg">timed</td>
+            <td><button id="refreshA" onclick="getMsft('a');">REFRESH</button></td>
+            <td><button id="refreshB" onclick="getMsft('b');">REFRESH</button></td>
+        </tr>
+    </table>
+    <script src="table_test.js"></script>
+</body>
+</html>

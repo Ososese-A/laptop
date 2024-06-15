@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The Portfolio</h1>
+    <button onclick="get_Ngn_Usd_Rate();  getMsft()">Checker I</button>
+    <p>This is the rate:</p>
+    <p id="display"></p>
+    <p id="rateDisplay"></p>
+    <button onclick="converted();">Checker II</button>
+    <p id="nairaDisplay"></p>
+    <button onclick="getMsft(); getNflx(); getAppl(); getTsla(); getWbd(); getPara();">Checker III</button>
+    <p id="one"></p>
+    <p id="two"></p>
+    <p id="three"></p>
+    <p id="four"></p>
+    <p id="five"></p>
+    <p id="six"></p>
+    <script src="fetch_tester.js"></script>
+    <!-- <script>
+        const dis = document.getElementById("display");
+        const url = 'https://realstonks.p.rapidapi.com/MSFT';
+        const options = {
+            method: 'GET',
+            headers: {
+                'X-RapidAPI-Key': '5a15296613msh2a9148c995ff004p11e8ebjsna89f2dd61580',
+                'X-RapidAPI-Host': 'realstonks.p.rapidapi.com'
+            }
+        };
+
+        try {
+            const response = await fetch(url, options);
+            const result = await response.json();
+            console.log(result);
+        } catch (error) {
+            console.error(error);
+        }
+    </script> -->
+    <!-- <script src="fetch test.js"></script> -->
+</body>
+</html>

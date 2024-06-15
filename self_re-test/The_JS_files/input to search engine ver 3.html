@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <input type="text" id="searchInput" placeholder="Enter your question">
+    <button onclick="search()">Search</button>
+    <div id="searchResults"></div>
+
+    <script>
+        async function search() {
+            const query = document.getElementById("searchInput").value;
+            if (!query) {
+                alert("Please enter a search query.");
+                return;
+            }
+
+            try {
+                const response = await fetch(`https://www.google.com/search?q=${encodeURIComponent(query)}`);
+                const html = await response.text();
+
+                // Parse the search results from the HTML
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, "text/html");
+                const resultElements = doc.querySelectorAll(".b_algo h2 a");
+
+                // Display the top 5 search results
+                const resultsContainer = document.getElementById("searchResults");
+                resultsContainer.innerHTML = "";
+                for (let i = 0; i < Math.min(resultElements.length, 5); i++) {
+                    const resultElement = document.createElement("p");
+                    resultElement.textContent = resultElements[i].textContent;
+                    resultsContainer.appendChild(resultElement);
+                }
+            } catch (error) {
+                console.error("Error fetching search results:", error);
+            }
+        }
+    </script>
+</body>
+</html>

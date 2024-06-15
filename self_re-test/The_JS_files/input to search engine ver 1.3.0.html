@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <input type="text" id="searchInput" placeholder="Enter your question">
+    <button onclick="search()">Search</button>
+    <div id="searchResults"></div>
+
+    <script>
+        function search() {
+            const query = document.getElementById("searchInput").value;
+            if (!query) {
+                alert("Please enter a search query.");
+                return;
+            }
+
+            // Open the search results in a new tab
+            const searchUrl = `https://www.bing.com/search?q=${encodeURIComponent(query)}`;
+            const newTab = window.open(searchUrl, "_blank");
+
+            // Wait for the new tab to load
+            newTab.onload = function() {
+                // Retrieve the search results from the new tab
+                const results = newTab.document.querySelectorAll("h2 a");
+                const topResults = Array.from(results).slice(0, 5);
+
+                // Display the top 5 search results on the main page
+                const resultsDiv = document.getElementById("searchResults");
+                resultsDiv.innerHTML = ""; // Clear previous results
+                topResults.forEach((result, index) => {
+                    const resultLink = document.createElement("a");
+                    resultLink.href = result.href;
+                    resultLink.target = "_blank"; // Open link in a new tab
+                    resultLink.textContent = result.innerText;
+                    resultsDiv.appendChild(resultLink);
+                    resultsDiv.appendChild(document.createElement("br"));
+                });
+
+                // Close the new tab
+                newTab.close();
+            };
+        }
+    </script>
+</body>
+</html>
